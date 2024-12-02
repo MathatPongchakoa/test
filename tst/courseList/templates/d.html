@@ -1,0 +1,6 @@
+<h1>delete{{course_list.course_id}}</h1>
+<p>จะลบป่าว{{course_list.course_id}}-{{course_list.course_name}}</p>
+<form method="post">
+    {%csrf_token%}
+    <button type="submit">yes</button>
+</form>

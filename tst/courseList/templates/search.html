@@ -1,0 +1,9 @@
+<h1> Course Search </h1>
+<form method='GET'>
+    <input type='text' name='course_id'>
+    <button type='submit'>กด</button>
+</form>
+
+{% for course in courses %}
+  <p>{{course.course_id}} - {{course.course_name}} - {{course.t_name}}</p>
+{% endfor %}

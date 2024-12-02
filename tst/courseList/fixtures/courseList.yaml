@@ -1,0 +1,8 @@
+- model: courseList.course_list
+  pk: 12345
+  fields:
+   course_id : "1234"
+   course_name : "ma"
+   t_name : "aut"
+     
+     

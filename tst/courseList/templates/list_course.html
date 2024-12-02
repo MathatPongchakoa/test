@@ -1,0 +1,6 @@
+<h1> Course_list <h1>
+    {% for course in courses %}
+    <a href="{% url 'Edit' course.course_id %}">edit</a>
+    <p>{{course.course_id}} - {{course.course_name}} - {{course.t_name}}</p>
+    {% endfor %}
+    
